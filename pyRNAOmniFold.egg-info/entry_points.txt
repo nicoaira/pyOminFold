@@ -1,2 +1,0 @@
-[console_scripts]
-pyrnaomnifold = pyrnaomnifold.cli:main
