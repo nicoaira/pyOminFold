@@ -1,2 +1,3 @@
 pyRNAOmniFold.egg-info/
 .pytest_cache/
+build/

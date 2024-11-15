@@ -2,12 +2,14 @@
 
 from pyrnaomnifold.methods.rnafold.rnafold_wrapper import RNAfoldWrapper
 from pyrnaomnifold.methods.linearfold.linearfold_wrapper import LinearFoldWrapper
+from pyrnaomnifold.methods.spotrna.spotrna_wrapper import SPOTRNAWrapper
 
 class FoldingManager:
     def __init__(self):
         self.methods = {
             'rnafold': RNAfoldWrapper(),
-            'linearfold': LinearFoldWrapper(),  # Add LinearFold as a method
+            'linearfold': LinearFoldWrapper(),
+            'spotrna': SPOTRNAWrapper(),  # Add SPOT-RNA as a method
             # Add other methods here as you implement them
         }
 
